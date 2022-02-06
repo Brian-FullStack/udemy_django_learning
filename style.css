@@ -1,0 +1,23 @@
+
+/* Navigation */
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4F7CAC;
+    padding: 1em;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #C0E0DE;
+}
+
+.nav-link:hover {
+    color: #fff;
+    transition: 800ms;
+}
