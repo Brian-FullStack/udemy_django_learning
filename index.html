@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Welcome to my Website!</h1>
     <p>I'm excited to be learning Django!</p>
@@ -24,30 +26,76 @@
     <p>Can you figure out how to make a picture a link?</p>
     <p>Yes!</p>
 
-    <h2>Tables</h2>
+    <div class="tableDiv">
+        <h2>Tables</h2>
+        <table border="1">
+            <thead>
+                <th>Country</th>
+                <th>Flag</th>
+                <th>Population</th>
+            </thead>
+            <tr>
+                <td>Ireland</td>
+                <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACACAMAAADzok/sAAAACVBMVEUWm2L/////iD5OfHbkAAAAnklEQVR4nO3PMQ0AAAgDsIF/0ajYQdI6aNIwDdtQ6fv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7v/sfI5p/gSudSXoAAAAASUVORK5CYII="
+                        alt="irish flag"></td>
+                <td>5.01 million</td>
+            </tr>
+            <tr>
+                <td>Greenland</td>
+                <td><img src="data:image/png;base64,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"
+                        alt="Greenland Flag"></td>
+                <td>56,367</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAACiCAMAAADiKyHJAAAAFVBMVEUAmQAAmf///wAAlACl0ACl0KUAlP/AFW3UAAAA6UlEQVR4nO3QNwGAAAAEsaf6l4yHG5gSCdkAAAAAAAAAAAAAAAAAAAAAAAAA/nWR7CbZSSIuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhoD8lekh0k4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEhd9VEOwuehc1rMAAAAASUVORK5CYII="
+                        alt="Flag of Java"></td>
+                <td>145 million</td>
+            </tr>
+        </table>
+    </div>
 
-    <table border="1">
-        <thead>
-            <th>Country</th>
-            <th>Flag</th>
-            <th>Population</th>
-        </thead>
-        <tr>
-            <td>Ireland</td>
-            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACACAMAAADzok/sAAAACVBMVEUWm2L/////iD5OfHbkAAAAnklEQVR4nO3PMQ0AAAgDsIF/0ajYQdI6aNIwDdtQ6fv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7v/sfI5p/gSudSXoAAAAASUVORK5CYII=" alt="irish flag"></td>
-            <td>5.01 million</td>
-        </tr>
-        <tr>
-            <td>Greenland</td>
-            <td><img src="data:image/png;base64,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" alt="Greenland Flag"></td>
-            <td>56,367</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAACiCAMAAADiKyHJAAAAFVBMVEUAmQAAmf///wAAlACl0ACl0KUAlP/AFW3UAAAA6UlEQVR4nO3QNwGAAAAEsaf6l4yHG5gSCdkAAAAAAAAAAAAAAAAAAAAAAAAA/nWR7CbZSSIuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhoD8lekh0k4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEheJi8RF4iJxkbhIXCQuEhd9VEOwuehc1rMAAAAASUVORK5CYII=" alt="Flag of Java"></td>
-            <td>145 million</td>
-        </tr>
-    </table>
+    <hr>
+
+    <h1>Course Sign Up Page</h1>
+
+    <p>Please Note: First Name, Last Name, Password and Email are required.</p>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="First Name" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Last Name" required>
+
+        <p></p>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="name@email.com" required>
+
+        <label for="password">Password: </label>
+        <input type="password" required>
+
+        <p>Are you over the age of 18?</p>
+
+        <label>Yes: </label>
+        <input type="radio">
+
+        <label>No: </label>
+        <input type="radio">
+
+        <p>How will you be paying?</p>
+
+        <select name="payType" id="payType">
+            <option value="">Credit Card</option>
+            <option value="">PayPal</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Sign Up">
+    </form>
 
 </body>
+
 </html>
