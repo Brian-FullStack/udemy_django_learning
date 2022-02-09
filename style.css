@@ -21,3 +21,10 @@
     color: #fff;
     transition: 800ms;
 }
+
+.jumbotron {
+    background-color: #e9e7e7;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2em auto;
+}
